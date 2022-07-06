@@ -1,1 +1,87 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background: rgb(39,36,91);
+    background: linear-gradient(90deg, rgba(39,36,91,1) 0%, rgba(43,43,195,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+button{
+    cursor: pointer;
+}
+
+ul{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.824);
+}
+
+li {
+    padding: 15px;
+    margin: 10px;
+    font-size: 1em;
+    font-style: italic;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+li>button{
+    border: none;
+    background-color: #fff;
+    font-size: 1em;
+    float: right;
+    opacity: 0.8;
+    transition: opacity 1s;
+}
+
+li>button:hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size:  5em;
+    text-shadow: 3px 5px #000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.button {
+    background-color: #000;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#modal{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.);
+
+}
+
+input{
+    width: 100%;
+    line-height: 50px;
+    text-indent: 10px;
+    font-size: 1.2em;
+}
